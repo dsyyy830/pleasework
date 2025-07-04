@@ -1,16 +1,16 @@
-import { useState } from 'react'
-import { Modal } from 'antd'
+import { useState } from 'react';
+import { Modal } from 'antd';
 
 function App() {
-  const [isModalOpen, setIsModalOpen] = useState(false)
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const showModal = () => {
-    setIsModalOpen(true)
-  }
+    setIsModalOpen(true);
+  };
 
   const handleCancel = () => {
-    setIsModalOpen(false)
-  }
+    setIsModalOpen(false);
+  };
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-pink-100 to-blue-100 flex flex-col items-center justify-center px-4 sm:px-6 md:px-8">
@@ -51,7 +51,7 @@ function App() {
         </p>
       </Modal>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
