@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="min-h-screen w-full bg-gradient-to-br from-pink-100 to-blue-100 flex flex-col items-center justify-center py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32 px-4 sm:px-6 md:px-8">
-      <div className="w-full max-w-full sm:max-w-full md:max-w-full lg:max-w-[98%] xl:max-w-[97%] 2xl:max-w-[96%] mx-auto text-center">
+      <div className="w-full mx-auto text-center">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-purple-700 drop-shadow-lg mb-12 sm:mb-14 md:mb-16 lg:mb-20 leading-tight">
           🎨 杜思远的第一个前端页面oi！
         </h1>
